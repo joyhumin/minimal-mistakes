@@ -55,9 +55,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : joyhumin
 facebook:
-  username               :
+  username               : 
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -77,22 +77,22 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Nerd Sexy"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "A cool person who is exploring the world."
+  location         : "Auckland"
   email            :
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : joyhumin
   foursquare       :
-  github           :
+  github           : joyhumin
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : joyhumin
   lastfm           :
   linkedin         :
   pinterest        :
@@ -102,7 +102,7 @@ author:
   tumblr           :
   twitter          :
   vine             :
-  weibo            :
+  weibo            : nerdsexy
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
