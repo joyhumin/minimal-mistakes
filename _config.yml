@@ -79,7 +79,7 @@ analytics:
 author:
   name             : *name # *name is a YAML refernce pointing to the &anchor ealier
   avatar           : "/assets/images/uface.jpg"
-  bio              : "Just another chill, curious, life-long learner."
+  bio              : "Just another chill, nerd, life-long learner."
   location         : "Auckland, NZ"
   email            : nerdissexy@gmail.com
   uri              :
