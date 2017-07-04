@@ -55,9 +55,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : joyhumin
+  username               : &twitter "joyhumin"
 facebook:
-  username               : joy.hu.37017
+  username               : &facebook "joy.hu.37017"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -77,17 +77,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Nerd Sexy"
+  name             : *name # *name is a YAML refernce pointing to the &anchor ealier
   avatar           : "/assets/images/uface.jpg"
-  bio              : "A cool person who is exploring the world."
-  location         : "Auckland, New Zealand"
+  bio              : "Just another chill, curious, life-long learner."
+  location         : "Auckland, NZ"
   email            : nerdissexy@gmail.com
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : joy.hu.37017
+  facebook         : *facebook
   foursquare       :
   github           : joyhumin
   google_plus      :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : *twitter
   vine             :
   weibo            : nerdsexy
   xing             :
@@ -172,7 +172,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -244,3 +244,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
