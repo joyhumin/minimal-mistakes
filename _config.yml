@@ -9,7 +9,7 @@
 locale                   : "en"
 title                    : "Nerd Sexy"
 title_separator          : "-"
-name                     : "Nerd sexy"
+name                     : &name "Nerd sexy"
 description              : "A nerdy girl who is exploring the digital world."
 url                      : "https://joyhumin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 10 
+    num_posts            : 10
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
@@ -57,7 +57,7 @@ yandex_site_verification :
 twitter:
   username               : joyhumin
 facebook:
-  username               : 
+  username               : joy.hu.37017
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -70,18 +70,18 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal"
   google:
-    tracking_id          :
+    tracking_id          : UA-102014552-1
 
 
 # Site Author
 author:
   name             : "Nerd Sexy"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/uface.jpg"
   bio              : "A cool person who is exploring the world."
-  location         : "Auckland"
-  email            :
+  location         : "Auckland, New Zealand"
+  email            : nerdissexy@gmail.com
   uri              :
   bitbucket        :
   codepen          :
