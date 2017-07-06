@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "<Animal Farm>读后感"
-date: 2017-07-02
+date: 2017-04-17
 categories:
   - blog
 tags:
